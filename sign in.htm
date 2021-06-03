@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="descrption" content="flamingo gift shop">
+        <!-- ?? -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>flamingo gift shop</title>
+        <link rel="stylesheet" type="text/css" href="./resourses/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=Elsie Swash Caps' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
+        
+    </head>
+    <body>
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                <ul>
+                <il><a herf="#" class="style1 style2">Home</a></il><br>
+                <il><a herf="#" class="style1 style2">sign in</a></il><br>
+                <il><a herf="#" class="style1 style2">about us</a></il><br>
+                <il><a herf="#" class="style1 style2">contant us</a></il><br>
+                </ul>
+
+              </div>
+            </div>
+            <nav class="navbar navbar-expand-lg" style="background-color:#ffffff">
+            <div class=" container-fluid ">
+
+                <div class="navbar-header">
+                   <il> <button type="button" class="btn btn-outline-light"  data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color:#ffffff; width: 50px;">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                        </button></il>
+                    <il><a href="./first.htm"><img src="./resourses/images/Logo.jpg" width="120px"></il>
+                </div>
+                <ul class="nav navbar-nav navbar-right navbar-collapse">
+                <il><a herf="#" class="navbar-style2" ><svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-person-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z"/>
+                        <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z"/>
+                    </svg></a>
+                </il>
+                <il><a herf="#" class="navbar-style2"  ><svg width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-cart3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+                    </svg></a>
+                </il>
+                </ul>
+               
+            
+            </nav>
+        </div>
+        <div class="container-fluid  sfirst"> 
+            <form class="ssecond">
+                <div class="row" >
+                    <p class="style1">Login</p>
+                    
+                    <div class="col">
+                        <label for="name" class="style2">user name</label>
+                        <input type="text" class="form-control center-block"id="uname" name="uname" required>
+                    <div class="col">
+                        <label for="name" class="style2">password</label>
+                        <input type="password" class="form-control" id="password"  name="password" required>
+
+                    </div>
+                    <div class="col-sm-10 " style="margin:20px 90px;">
+                        <button type="submit" class="btn btn-default" style="color:#BB0A41">log in</button>
+                    </div>
+                    <div >
+                        <p style=" text-align: center;">If you haven't sign up yet, click here؟! </p>
+                        
+                        <p><a class="btn btn-default style2" onclick="document.getElementById('one').style.display='block'" role="button"  style="margin:0px 100px; color:#BB0A41" >sign up</a></p>
+                    </div>
+                </div>
+            </form>
+       
+        <div id="one" class="modal">
+  
+            <form class="modal-content animate" action="/action_page.php" method="post">
+              <div class="imgcontainer">
+                <span onclick="document.getElementById('one').style.display='none'" class="close" title="Close Modal">&times;</span>
+                
+              </div>
+          
+              <div class="container row">
+                <div class="col">
+                    <label for="name" class="style2 style1">first name</label>
+                    <input type="text" class="sign1"id="uname" name="uname" required>
+                    <div class="col">
+                        <label for="name" class="style2 style1">second name</label>
+                        <input type="text" class="sign1"id="uname" name="uname" required>
+                        <div class="col">
+                            <label for="name" class="style2 style1">user name</label>
+                            <input type="text" class="sign1"id="uname" name="uname" required>
+                        <div class="col">
+                            <label for="email" class="style2 style1">email</label>
+                            <input type="email" class="sign1"id="uname" name="uname" required>
+                            <div class="col">
+                                <label for="name"  class="style2 style1">password</label>
+                                <input type="password"  class="sign1" id="password"  name="password" required>
+
+                </div>
+                  
+                <button type="submit">sign up</button>
+                
+              </div>
+          
+             
+            </form>
+          </div>
+        </div>
+        <script src="./java.js"></script>
+    </body>
